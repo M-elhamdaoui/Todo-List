@@ -35,10 +35,18 @@
         padding-left: 40px;
         padding-top: 14px;
         padding-bottom: 17px;
-        span {
+        button{
           float: right;
           margin-right: 20px;
           cursor: pointer;
+          pointer-events: painted;
+          outline: none;
+          outline-style: none;
+          border: none;
+          img{
+            pointer-events: none;
+          }
+         
         }
       }
       li:not(:last-child) {
@@ -72,6 +80,8 @@
     }
     .img {
       padding: 0;
+      pointer-events: none;
+      cursor: none;
     }
   }
 }

@@ -69,18 +69,11 @@ body {
   padding-bottom: 17px;
 }
 
-.container .containers__list li button {
+.container .containers__list li .spans {
   float: right;
   margin-right: 20px;
   cursor: pointer;
   pointer-events: painted;
-  outline: none;
-  outline-style: none;
-  border: none;
-}
-
-.container .containers__list li button img {
-  pointer-events: none;
 }
 
 .container .containers__list li:not(:last-child) {
@@ -117,6 +110,5 @@ body {
 .container .containers .img {
   padding: 0;
   pointer-events: none;
-  cursor: none;
 }
 /*# sourceMappingURL=style.css.map */
